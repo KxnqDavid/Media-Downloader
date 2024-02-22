@@ -22,7 +22,6 @@ namespace Downloader
                 Console.WriteLine("1. Highest Quality!");
                 Console.WriteLine("2. MP4");
                 Console.WriteLine("3. WebM");
-                Console.WriteLine("4. MP3");
 
                 if (int.TryParse(Console.ReadLine(), out choice))
                 {
@@ -36,9 +35,6 @@ namespace Downloader
                             break;
                         case 3:
                             downloadVideo(link, directory, "webm");
-                            break;
-                        case 4:
-                            downloadAudio(link, directory, "mp3");
                             break;
                         default:
                             Console.WriteLine("Invalid choice.");
