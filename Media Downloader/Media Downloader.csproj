@@ -8,4 +8,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="yt-dlp.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="yt-dlp.exe" />
+  </ItemGroup>
+
 </Project>
