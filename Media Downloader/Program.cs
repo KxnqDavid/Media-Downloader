@@ -58,7 +58,7 @@ namespace Downloader
             path = Environment.CurrentDirectory;
             try
             {
-                string ytDlpPath = path;
+                string ytDlpPath = path; ;
 
                 ProcessStartInfo startInfo = new ProcessStartInfo
                 {
